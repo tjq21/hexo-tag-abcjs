@@ -5,7 +5,7 @@ const config = hexo.config.abcjs = _.merge({
   js: '/js/abcjs_midi_5.9.1-min.js',
   css: '/css/abcjs-midi.css',
   scriptId: 'hexo-tag-abcjs',
-  midi: true,
+  midi: true, // deprecated, set to true in abc.js because of bugs in multi-tunes, must explicitly declare no-midi
   animation: true,
   animationColors: ['#000000', '#3d9afc'],
   options: {

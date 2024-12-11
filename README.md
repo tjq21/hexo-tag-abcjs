@@ -10,12 +10,12 @@ npm install --save hexo-tag-abcjs
 
 ## Configuration
 
-You can configure this plugin in _config.yml.
+You can download `abcjs-basic-min.js` and `abcjs-audio.css` from [the official website](https://www.abcjs.net/), move them to `<hexo-root-dir>/source/js/` and `<hexo-root-dir>/source/css/` respectively, then configure this plugin in _config.yml.
 
 ```
 abcjs:
-  js: '/js/abcjs_midi_5.9.1-min.js',
-  css: '/css/abcjs-midi.css',
+  js: '/js/abcjs-basic-min.js',
+  css: '/css/abcjs-audio.css',
   midi: true,
   animation: true,
   animationColors: ['#000000', '#3d9afc']
